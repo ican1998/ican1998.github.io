@@ -1,0 +1,55 @@
+*{
+    /*样式初始化*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px 0;
+    font-family: 微软雅黑;
+}
+
+.wrapper{
+    width: 640px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 20px;
+    font-weight:normal;
+    text-align: center;
+    margin: 10px 0 20px;/*上边距10 左右0下边距20*/
+}
+p{
+    font-size: 14.7px;
+    text-indent: 2em;
+    margin: 1.5em 0;/*上下边距为1.5字符，左右为0*/
+    letter-spacing: normal;
+}
+h1+p{
+    border-top: 1px #ccc;
+    border-bottom: 1px #cccccc;
+    padding: 10px 0;
+    color: blue;
+    font-size: 12px;
+}
+.sum{
+    color: red;
+}
+ul{
+    list-style-type: none;/*取消列表前的点*/
+
+    font-size: 12px;
+}
+ul li{
+    line-height: 2em;
+    text-indent: 2em;
+}
+a{
+     color: #666666;
+     text-decoration: none;/*取消下划线*/
+ }
+a:hover{
+    color: #666666;
+    text-decoration: underline;/*重新有下划线*/
+}
