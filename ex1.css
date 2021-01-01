@@ -14,6 +14,25 @@ body{
     padding: 20px;
     margin: 0 auto;
 }
+.top{
+
+    overflow: hidden;
+
+}
+.shortcut{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.headword{
+    width: 520px;
+    height: 100px;
+    font-size: 30px;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    border: solid 1px #333;
+}
 h1{
     font-size: 20px;
     font-weight:normal;
@@ -46,9 +65,9 @@ ul li{
     text-indent: 2em;
 }
 a{
-     color: #666666;
-     text-decoration: none;/*取消下划线*/
- }
+    color: #666666;
+    text-decoration: none;/*取消下划线*/
+}
 a:hover{
     color: #666666;
     text-decoration: underline;/*重新有下划线*/
