@@ -7,7 +7,9 @@ body{
     padding: 10px 0;
     font-family: 幼圆;
 }
-
+.middle{
+    overflow: hidden;
+}
 .wrapper{
     width: 640px;
     border: 1px solid #cccccc;
@@ -43,11 +45,12 @@ body{
 }
 
 .main{
+    height: 380px;
     font-size: 14.7px;
     text-indent: 2em;
     letter-spacing: normal;
     line-height: 2em;
-    float: left;
+    float: right;
     border: 1px solid #cccccc;
     width: 480px;
     padding: 20px 20px 20px 20px;
