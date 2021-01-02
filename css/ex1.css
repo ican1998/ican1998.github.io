@@ -68,6 +68,7 @@ h1{
 
 }
 h1+p{
+    float：left；
     border-top: 1px #ccc;
     border-bottom: 1px #cccccc;
     padding: 10px 0;
